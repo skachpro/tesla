@@ -1,0 +1,86 @@
+html{
+    font-size: 1px;
+}body{
+    font-size: 18rem;
+    font-family: 'Rubik', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 85%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: #121212;
+}
+nav,
+.goods,
+.site-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper{
+    width: 85%;
+    margin: 0 auto;
+}
+.goods{
+    width: 50%;
+}
+.site-menu{
+    width: 20%;
+}
+h1,h2,p{
+    color: #121212;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+p a{
+    text-decoration: underline;
+}
+.goods-info{
+    text-align: center;
+    margin: 90px;
+    margin-bottom: 60vh;
+}
+.goods-button{
+    display: flex;
+    justify-content: center;
+    margin: 25%;
+}
+.goods-button a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 15px;
+    border-radius: 5px;
+    transition: .3s;
+
+}
+
+.dark-button {
+    color: #e7e7e5;
+    width: 280px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #3e4145;
+    display: inline-block;
+    transition: .3s;
+}
+.light-button {
+    width: 280px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #e7e7e5;
+    display: inline-block;
+    transition: .3s;
+}
+a:hover{
+    text-decoration: underline;
+}
